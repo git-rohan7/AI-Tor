@@ -1,10 +1,8 @@
 # AI-Tor
 AI-Tor is an intelligent medical chatbot web application that allows users to upload medical images such as prescriptions, lab reports, or scans—and ask context-based questions. 
-Here’s a complete and polished **GitHub `README.md`** for your project:
 
----
 
-````markdown
+
 # 🩺 AI-Tor — Medical Chatbot for Image-Based Question Answering
 
 AI-Tor is a smart medical chatbot that allows users to upload medical images (such as prescriptions, lab reports, or scan results), ask questions about them, and receive helpful, AI-generated responses. It combines OCR and LLMs to make medical documents more understandable to the average person.
@@ -21,10 +19,10 @@ AI-Tor is a smart medical chatbot that allows users to upload medical images (su
 ## 🧠 Features
 
 - 📸 Upload medical images (PNG, JPG)
-- 🔍 Extracts text using **Tesseract OCR**
+- 🔍 Extracts text using Tesseract OCR
 - 💬 Accepts natural language questions about the document
 - 🤖 Uses **LLMs** like `llama3-8b-8192` to answer queries
-- 🎨 Clean UI with **Tailwind CSS**
+- 🎨 Clean UI with Tailwind CSS
 - 🧾 Display of AI response in markdown format
 
 ---
@@ -41,7 +39,7 @@ AI-Tor is a smart medical chatbot that allows users to upload medical images (su
 |-----------|--------------------------|
 | Frontend  | HTML, TailwindCSS, JS    |
 | Backend   | FastAPI (Python)         |
-| OCR       | Tesseract via `pytesseract` |
+| OCR       | Tesseract                |
 | AI Model  | Groq API (LLaMA 3)       |
 | Templates | Jinja2                   |
 
